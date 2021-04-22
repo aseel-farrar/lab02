@@ -1,0 +1,62 @@
+/* mobile view */
+@media only screen and (max-width: 768px) {
+  .a {
+    height: 9.78%;
+  }
+
+  .b {
+    height: 19.56%;
+  }
+
+  .c,
+  .d {
+    height: 16.3%;
+  }
+
+  .e,
+  .f,
+  .g,
+  .h {
+    height: 32.6%;
+    width: 50%;
+    float: left;
+  }
+  .i {
+    clear: both;
+    height: 10.43%;
+  }
+}
+
+/* desktop view */
+@media only screen and (min-width: 768px) {
+  .a {
+    width: 100%;
+    height: 13%;
+  }
+
+  .b {
+    width: 20.83%;
+    height: 78.23%;
+    float: left;
+  }
+
+  .c,
+  .d {
+    float: right;
+    width: 39.53%;
+    height: 26%;
+  }
+  .e,
+  .f,
+  .g,
+  .h {
+    width: 19.79%;
+    height: 32.59%;
+    float: left;
+  }
+
+  .i {
+    width: 79.17%;
+    height: 19.56%;
+  }
+}
